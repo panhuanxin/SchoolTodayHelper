@@ -12,7 +12,7 @@ wait_time = 1
 wait_time1 = 3#不能正常显示名字的情况请根据网速调整此项
 username = "2018000013"
 password = "qw123456"
-ordername = input()#可在此输入指定名
+ordername = input("需要指定人的在此项填入名字：\n")#可在此输入指定名
 
 def _extract_names(html):
     """提取名字"""
